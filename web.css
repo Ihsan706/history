@@ -1,0 +1,41 @@
+body {
+  background: linear-gradient(to bottom left, hsl(240, 100%, 50%), hsl(140, 100%, 30%));
+  background-size: cover;
+  background-attachment: fixed; /* This ensures the background stays in place while scrolling */
+}
+
+*{transition: 500ms ease-in-out;}
+
+.pic1{
+transition: 1000ms ease-in-out;
+width:100%;
+border-radius:50%;
+}
+
+
+h1:hover{
+float:left;
+padding:1em;
+
+text-align:center;
+color:black;
+font-size:7em;
+}
+.pic1:hover{
+border-radius:0%; 
+
+}
+h1,a{
+padding:5px;
+float:left;
+text-align:center;
+color:blue;
+font-size:1em;
+}
+h1,.a{
+padding:5px;
+float:left;
+text-align:center;
+color:blue;
+font-size:5em;
+}
